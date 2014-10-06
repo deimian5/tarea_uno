@@ -6,7 +6,7 @@ Rails.application.routes.draw do
    match '/signup', to: 'usuarios#index', via:'get'
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root 'usuarios#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
